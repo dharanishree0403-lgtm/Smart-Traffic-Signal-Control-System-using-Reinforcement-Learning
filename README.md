@@ -52,15 +52,7 @@ The Reinforcement Learning agent uses the trained Q-table to control traffic sig
 
 **File:** `RL_Control_Intelligent.py`
 
-### 3. Performance Comparison
 
-The plotting script generates graphs to compare the performance of the conventional and intelligent traffic control systems.
-
-**File:** `Plot_Results.py`
-
-The comparison focuses on:
-- Cumulative Waiting Time
-- Queue Lengths
 
 ## Results and Analysis
 
@@ -120,13 +112,7 @@ python RL_Control_Intelligent.py
 
 The agent uses the trained Q-table (`Trained_QTable_Data.pkl`) to control traffic dynamically.
 
-### Step 3: Generate Performance Comparison
 
-```bash
-python Plot_Results.py
-```
-
-The plotting script generates graphs comparing cumulative waiting time and queue lengths.
 
 ## Conclusion
 
